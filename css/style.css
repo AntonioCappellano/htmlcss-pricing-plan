@@ -19,6 +19,10 @@ a {
     text-decoration: none
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .page-header > .container{
     display:flex;
     justify-content: space-between;
@@ -50,6 +54,7 @@ a {
 
 .prize-monthly {
     text-align: center;
+    margin: 10px
     
 }
 
@@ -58,5 +63,17 @@ a {
 }
 
 .plan {
-    text-align: center
+    text-align: center;
+    margin:10px
+    
+
+}
+
+.card {
+    padding: 10px;
+}
+
+.second-card {
+    background-color: #6500FF ;
+    color:white
 }
