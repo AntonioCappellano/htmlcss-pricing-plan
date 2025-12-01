@@ -42,13 +42,21 @@ a {
 .cards-section .card {
     
     border: 1px solid black;
-    color: white;
     min-height: 140px;
     min-width: 200px;
     width: calc(100% / 3 - 1rem * 2 / 3); 
     flex-grow: 1;
 }
 
+.prize-monthly {
+    text-align: center;
+    
+}
 
+.sconto{
+    text-align: center;
+}
 
-
+.plan {
+    text-align: center
+}
